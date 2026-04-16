@@ -1,0 +1,11 @@
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+httpx>=0.24.0
+torch>=2.1.0
+transformers>=4.40.0
+accelerate>=0.25.0
+pydantic>=2.0.0
+sentencepiece>=0.1.99
+# RTX 5090优化相关（可选，自动检测）
+# flash-attn - 如果环境支持，显著加速attention计算
+# pip install flash-attn --no-build-isolation
